@@ -93,15 +93,6 @@
 								description: result.item.description,
 								thumbnail: "http://l.yimg.com/a/i/us/nws/weather/gr/"+result.item.condition.code+timeOfDay+"s.png",
 								image: "http://l.yimg.com/a/i/us/nws/weather/gr/"+result.item.condition.code+timeOfDay+".png",
-								today:{
-									high: result.item.forecast[0].high,
-									low: result.item.forecast[0].low,
-									forecast: result.item.forecast[0].text,
-									code: result.item.forecast[0].code,
-									date: result.item.forecast[0].date,
-									day: result.item.forecast[0].day,
-									image: "http://l.yimg.com/a/i/us/nws/weather/gr/"+result.item.forecast[0].code+"d.png"
-								},
 								tomorrow:{
 									high: result.item.forecast[1].high,
 									low: result.item.forecast[1].low,
